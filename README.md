@@ -29,23 +29,32 @@ The following user flow is automated:
 
 ## Project Architecture
 The framework follows **Page Object Model (POM)** for maintainability.
+
 playwright-ecommerce-automation
-│
-├── pages
-│   ├── SearchPage.js
-│   ├── SearchResultPage.js
-│   ├── ProductDetailedPage.js
-│   └── PlaceOrderPage.js
-│
-├── pageObject
-│   └── POManager.js
-│
-├── tests
-│   └── searchPage.spec.js
-│
-├── playwright.config.js
-├── package.json
-└── README.md
+
+**pages**
+
+  - SearchPage.js
+  
+  - SearchResultPage.js
+  
+  - ProductDetailedPage.js
+  
+  - PlaceOrderPage.js
+
+**pageObject**
+  
+  - POManager.js
+
+**tests**
+
+  - searchPage.spec.js 
+
+playwright.config.js
+
+package.json
+
+README.md
 
 ## Key Automation Features
 * Page Object Model implementation
@@ -71,4 +80,5 @@ npx playwright test --headed
 
 ## Author
 Nivedha Rajendran
+
 Automation Test Engineer
